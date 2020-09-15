@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const colours = require('./colours.json')
 
-var prefix = '-'
+const prefix = '-'
 
 bot.on("ready", () =>{
     console.log(`Logged in as ${bot.user.tag}!`);
@@ -11,7 +11,7 @@ bot.on("ready", () =>{
 
 bot.on('message', message =>{
  
-    let args = message.content.substring(PREFIX.length).split(' ')
+    let args = message.content.substring(prefix.length).split(' ')
  
     switch(args[0]){
         case 'mc':
