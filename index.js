@@ -19,7 +19,7 @@ bot.on('message', message => {
         const sEmbed = new Discord.MessageEmbed()
         .setColor(colours.cyan)
         .setTitle('Help')
-        .addField('\nPříkazy:', '``-ip`` - Zobrazí IP serveru \n``-verze`` - Zobrazí verzy serveru\nComing soon')
+        .addField('\nPříkazy:', '``-ip`` - Zobrazí IP serveru \n``-verze`` - Zobrazí verzy serveru\nComing soon :)')
         message.channel.send({embed: sEmbed});
     }
 
