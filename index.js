@@ -53,7 +53,7 @@ bot.on('message', message => {
         const sEmbed = new Discord.MessageEmbed()
         .setColor(colours.cyan)
         .setTitle('Help')
-        .addField('\nMinihry:', '``Creative`` - online \n``Survival`` - online \n``parkour`` - offline \n``Skyblock`` - online \n``Village Defense`` - online \n``Build Battle`` - online \n``murder`` - online \n``Prison`` - online \n``KitPvP`` - online \n``SkyWars`` - online \n``1vs1`` - online \n``TnTRun`` - online \n``Eggwars`` - připravujeme.')
+        .addField('\nMinihry:', '``Creative`` - online \n``Survival`` - online \n``parkour`` - offline \n``Skyblock`` - online \n``Village Defense`` - online \n``Build Battle`` - online \n``murder`` - online \n``Prison`` - online \n``KitPvP`` - online \n``SkyWars`` - online \n``1vs1`` - online \n``TnTRun`` - online \n``Eggwars`` - připravujeme')
     }    
 });
 
