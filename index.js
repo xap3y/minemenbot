@@ -46,7 +46,7 @@ bot.on('message', message => {
         const sEmbed = new Discord.MessageEmbed()
         .setColor(colours.cyan)
         .setTitle('Help')
-        .addField('\nPříkazy:', '``-ip`` - Zobrazí IP serveru \n``-verze`` - Zobrazí verzy serveru \n``-status`` - Zobrazí status serveru')
+        .addField('\nPříkazy:', '``-ip`` - Zobrazí IPP serveru \n``-verze`` - Zobrazí verzy serveru \n``-status`` - Zobrazí status serveru')
         message.channel.send({embed: sEmbed});
     }
     if(message.content === `${prefix}status`) {
